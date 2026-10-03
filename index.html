@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Create | Modern Websites & Digital Experiences</title>
+  <meta name="description" content="Web Create builds modern, smooth, secure, responsive, and user-friendly websites. Take control of your digital space with custom web design and development.">
+  <meta name="keywords" content="web design, web development, custom websites, WordPress, e-commerce, Web Create, responsive design">
+  <meta name="author" content="Web Create">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="Web Create Homepage">
+        <img src="assets/logo.svg" alt="web Craft Logo" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#technologies" class="nav-link">Technologies</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#why-us" class="nav-link">Why Us</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Theme Switcher & Mobile Menu Toggle -->
+      <div class="header-actions">
+        <!-- Theme Switcher Button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light mode" title="Toggle Theme">
+          <span class="theme-icon sun-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Open mobile menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Backdrop Overlay -->
+  <div class="mobile-backdrop" id="mobile-backdrop" aria-hidden="true"></div>
+
+  <main id="main-content">
+    
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Web Design &amp; Development Studio</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="company-lead">Web Create</span>
+            <span class="headline-break">Modern Websites.</span>
+            <span class="gradient-text">Your Digital Space.</span>
+          </h1>
+
+          <p class="hero-description">
+            Create a modern digital presence where your ideas, services, and products can be presented freely and professionally — independent from algorithmic constraints.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Our Projects</span>
+              <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Start a Project</span>
+            </a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-check">✓</span>
+              <span>100% Customized Solutions</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-check">✓</span>
+              <span>7 Months After-Sales Support</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-check">✓</span>
+              <span>478+ Projects Delivered</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Abstract Interactive Design Visual -->
+        <div class="hero-visual reveal reveal-delay-1" aria-hidden="true">
+          <div class="glass-canvas">
+            <!-- Window Top Bar -->
+            <div class="canvas-header">
+              <div class="traffic-lights">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="canvas-title-bar">webcreate.dev/digital-space</div>
+              <div class="canvas-mode-indicator">
+                <span class="status-pulse"></span>
+                <span>Active</span>
+              </div>
+            </div>
+
+            <!-- Visual Content Canvas Mockup -->
+            <div class="canvas-body">
+              <div class="mockup-hero-block">
+                <div class="mockup-line line-brand"></div>
+                <div class="mockup-line line-title"></div>
+                <div class="mockup-line line-sub"></div>
+              </div>
+
+              <div class="mockup-cards-row">
+                <div class="mockup-mini-card card-purple-glow">
+                  <div class="mini-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                  </div>
+                  <div class="mini-label">Sovereignty</div>
+                  <div class="mini-value">Owned Space</div>
+                </div>
+
+                <div class="mockup-mini-card card-cyan-glow">
+                  <div class="mini-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                  </div>
+                  <div class="mini-label">Performance</div>
+                  <div class="mini-value">100 / 100</div>
+                </div>
+
+                <div class="mockup-mini-card card-emerald-glow">
+                  <div class="mini-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                  </div>
+                  <div class="mini-label">Security</div>
+                  <div class="mini-value">Encrypted</div>
+                </div>
+              </div>
+
+              <!-- Animated Code / Architecture Preview -->
+              <div class="mockup-code-block">
+                <div class="code-line"><span class="code-keyword">const</span> <span class="code-var">digitalSpace</span> = <span class="code-keyword">new</span> <span class="code-class">WebCreateExperience</span>({</div>
+                <div class="code-line indent"><span class="code-prop">control</span>: <span class="code-val">"100% Client Owned"</span>,</div>
+                <div class="code-line indent"><span class="code-prop">responsive</span>: <span class="code-bool">true</span>,</div>
+                <div class="code-line indent"><span class="code-prop">support</span>: <span class="code-val">"7 Months Included"</span></div>
+                <div class="code-line">});</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Structured Clean Showcase Badges -->
+          <div class="hero-badges-row">
+            <div class="floating-badge badge-center-mascot">
+              <img src="assets/logo.svg" alt="web Craft Mascot" class="floating-mascot-img">
+              <div class="floating-text">
+                <strong>web Craft</strong>
+                <span>Friendly &amp; Modern</span>
+              </div>
+            </div>
+
+            <div class="floating-badge">
+              <div class="floating-icon">🚀</div>
+              <div class="floating-text">
+                <strong>478+ Projects</strong>
+                <span>Completed</span>
+              </div>
+            </div>
+
+            <div class="floating-badge">
+              <div class="floating-icon">🛡️</div>
+              <div class="floating-text">
+                <strong>7+ Years</strong>
+                <span>Since 2017</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. EXPERIENCE & ACHIEVEMENTS COUNTERS -->
+    <section class="stats-section" id="stats" aria-label="Key Achievements">
+      <div class="container">
+        <div class="stats-wrapper reveal">
+          <div class="stat-card">
+            <div class="stat-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="2017">2017</span>
+            </div>
+            <h3 class="stat-label">Company Founded</h3>
+            <p class="stat-sub">Born from collaborative passion</p>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="7">7</span><span class="stat-plus">+</span>
+              <span class="stat-unit">Years</span>
+            </div>
+            <h3 class="stat-label">Continuous Experience</h3>
+            <p class="stat-sub">Refining modern web design craft</p>
+          </div>
+
+          <!-- Highlighted Main Achievement: 478+ Projects -->
+          <div class="stat-card stat-card-featured">
+            <div class="featured-badge-pill">Major Milestone</div>
+            <div class="stat-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="478">478</span><span class="stat-plus">+</span>
+            </div>
+            <h3 class="stat-label">Projects Completed</h3>
+            <p class="stat-sub">Successful digital spaces launched worldwide</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT US SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">About Web Create</span>
+          <h2 class="section-title">Crafting Purposeful Digital Spaces Since 2017</h2>
+          <p class="section-subtitle">
+            Web Create began its journey in 2017 as a startup sparked by our team's first collaborative project. Since then, we have continually sharpened our craft to create modern, liberating digital solutions.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- The Core Idea Box -->
+          <div class="about-card core-idea-card reveal">
+            <div class="card-icon-header">
+              <div class="icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <span class="badge-sub">Our Core Idea</span>
+            </div>
+            <h3 class="card-title">Own Your Digital Space</h3>
+            <p class="card-text">
+              In 2026, social media has become a dominant part of daily life, and algorithmic feeds dictate visibility and reach. A dedicated personal or business website offers something fundamentally different: <strong>a digital space that the owner completely controls</strong>.
+            </p>
+            <p class="card-text">
+              A website allows businesses and individuals to present their ideas, services, products, and identity freely and in their own way, without depending completely on third-party algorithms. This independence is the driving philosophy behind Web Create.
+            </p>
+          </div>
+
+          <!-- Mission & Approach Box -->
+          <div class="about-card mission-card reveal reveal-delay-1">
+            <div class="card-icon-header">
+              <div class="icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <span class="badge-sub">Our Mission &amp; Approach</span>
+            </div>
+            <h3 class="card-title">Tailored Solutions For Every Client</h3>
+            <p class="card-text">
+              Our mission is to create modern websites and digital experiences that help clients present their ideas, services, and products clearly, professionally, and freely.
+            </p>
+            <p class="card-text">
+              We do not believe that one solution works for everyone. Every client comes with distinct needs, goals, audiences, and business requirements. Therefore, Web Create provides customized solutions based on the specific needs of each project.
+            </p>
+          </div>
+        </div>
+
+        <!-- Who We Work With -->
+        <div class="clients-overview reveal">
+          <h3 class="clients-title">Who We Work With</h3>
+          <p class="clients-sub">We design and build tailored digital spaces for a diverse range of clients:</p>
+          <div class="clients-chips">
+            <div class="client-chip">
+              <span class="chip-icon">🏢</span>
+              <span>Companies</span>
+            </div>
+            <div class="client-chip">
+              <span class="chip-icon">🛍️</span>
+              <span>Online Stores</span>
+            </div>
+            <div class="client-chip">
+              <span class="chip-icon">🍽️</span>
+              <span>Restaurants</span>
+            </div>
+            <div class="client-chip">
+              <span class="chip-icon">👤</span>
+              <span>Individuals</span>
+            </div>
+            <div class="client-chip">
+              <span class="chip-icon">🚀</span>
+              <span>Startups</span>
+            </div>
+            <div class="client-chip">
+              <span class="chip-icon">🌐</span>
+              <span>Organizations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SERVICES SECTION -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">What We Do</span>
+          <h2 class="section-title">Professional Web Services</h2>
+          <p class="section-subtitle">
+            From initial concept to post-launch care, we deliver end-to-end web design and development services built around your exact goals.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card reveal">
+            <div class="service-number">01</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Website Design &amp; Development</h3>
+            <p class="service-description">
+              Design and develop modern, bespoke websites that faithfully represent your brand identity, communicate your value clearly, and achieve your business goals.
+            </p>
+            <ul class="service-features">
+              <li>Modern UI/UX Architecture</li>
+              <li>Clean Semantic Code</li>
+              <li>Fully Responsive Layouts</li>
+            </ul>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card reveal reveal-delay-1">
+            <div class="service-number">02</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">E-Commerce Websites</h3>
+            <p class="service-description">
+              Create online stores designed to provide customers with an effortless, frictionless, and comfortable shopping and checkout experience.
+            </p>
+            <ul class="service-features">
+              <li>Streamlined Checkout Flows</li>
+              <li>Secure Payment Integrations</li>
+              <li>Inventory &amp; Product Management</li>
+            </ul>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card reveal reveal-delay-2">
+            <div class="service-number">03</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Custom Web Solutions</h3>
+            <p class="service-description">
+              Build specialized solutions based on the unique technical needs, interactive elements, and custom requirements of each individual client.
+            </p>
+            <ul class="service-features">
+              <li>Tailored Functionality</li>
+              <li>Custom Integrations</li>
+              <li>Scalable Infrastructure</li>
+            </ul>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card reveal">
+            <div class="service-number">04</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                <path d="M9 12H4s.55-3.03 2-4.5c1.62-1.63 5-2 5-2"></path>
+                <path d="M12 9v5s3.03-.55 4.5-2c1.63-1.62 2-5 2-5"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Website Launch Preparation</h3>
+            <p class="service-description">
+              Prepare websites thoroughly for official launch, verifying all critical components, domain configurations, security headers, and assets are pristine.
+            </p>
+            <ul class="service-features">
+              <li>Pre-Flight Quality Assurance</li>
+              <li>Speed &amp; Asset Optimization</li>
+              <li>Domain &amp; SSL Deployment</li>
+            </ul>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card service-card-highlight reveal reveal-delay-1">
+            <div class="support-badge">Peace of Mind</div>
+            <div class="service-number">05</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                <path d="M8 10h.01"></path>
+                <path d="M12 10h.01"></path>
+                <path d="M16 10h.01"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">After-Sales Support</h3>
+            <p class="service-description">
+              We stand by our work. We provide continued technical support and maintenance after project delivery for up to <strong>7 months</strong>.
+            </p>
+            <ul class="service-features">
+              <li>Up to 7 Months Continuous Support</li>
+              <li>Technical Troubleshooting</li>
+              <li>Guidance &amp; Content Assistance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TECHNOLOGIES SECTION -->
+    <section class="section tech-section" id="technologies">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Tools &amp; Capabilities</span>
+          <h2 class="section-title">Selected for Your Needs</h2>
+          <p class="section-subtitle">
+            We do not use a rigid, one-size-fits-all stack. Technologies are chosen thoughtfully based on each project's distinct goals, performance needs, and user requirements.
+          </p>
+        </div>
+
+        <div class="tech-grid">
+          <!-- Tech 1: WordPress -->
+          <div class="tech-card reveal">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.158 0C5.452 0 0 5.452 0 12.158c0 5.093 3.14 9.444 7.625 11.206L3.109 10.428a10.974 10.974 0 0 1 9.049-5.928c2.81 0 5.378 1.053 7.332 2.785L12.158 0zm7.135 7.64c1.606 2.067 2.565 4.675 2.565 7.518 0 4.234-2.186 7.962-5.495 10.127l5.35-15.485c.01-.03.018-.06.027-.091l-.247-.069a10.7 10.7 0 0 0-2.2-.001zm-7.135 15.68a11.196 11.196 0 0 1-5.068-1.2l5.486-15.932 5.568 15.753a11.182 11.182 0 0 1-5.986 1.379zM1.942 12.158c0-1.802.437-3.5 1.21-5.006l6.89 18.874A11.166 11.166 0 0 1 1.942 12.158z"/>
+              </svg>
+            </div>
+            <h3 class="tech-name">WordPress</h3>
+            <p class="tech-desc">Robust, flexible content management powering millions of custom web experiences globally.</p>
+            <span class="tech-tag">CMS Platform</span>
+          </div>
+
+          <!-- Tech 2: Gutenberg -->
+          <div class="tech-card reveal reveal-delay-1">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <h3 class="tech-name">Gutenberg</h3>
+            <p class="tech-desc">Modern modular block editor empowering clients to edit content smoothly and visually with total ease.</p>
+            <span class="tech-tag">Block Editor</span>
+          </div>
+
+          <!-- Tech 3: WooCommerce -->
+          <div class="tech-card reveal reveal-delay-2">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+            </div>
+            <h3 class="tech-name">WooCommerce</h3>
+            <p class="tech-desc">Flexible, highly customizable e-commerce framework for building comfortable store experiences.</p>
+            <span class="tech-tag">E-Commerce</span>
+          </div>
+
+          <!-- Tech 4: Custom Development -->
+          <div class="tech-card reveal reveal-delay-3">
+            <div class="tech-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/>
+              </svg>
+            </div>
+            <h3 class="tech-name">Custom Development</h3>
+            <p class="tech-desc">Tailored HTML, CSS, JavaScript, and custom logic engineered for specific project objectives.</p>
+            <span class="tech-tag">Custom Code</span>
+          </div>
+        </div>
+
+        <!-- Adaptive Stack Banner -->
+        <div class="tech-notice reveal">
+          <div class="notice-icon" aria-hidden="true">💡</div>
+          <div class="notice-text">
+            <strong>Adaptive Technology Selection:</strong> We never force a fixed stack onto your project. Whether your solution calls for WordPress, custom development, or other suitable technologies, our choices are always driven by your specific needs and long-term convenience.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PERFORMANCE, SEO & SECURITY SECTION -->
+    <section class="section quality-section" id="qualities">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Technical Excellence</span>
+          <h2 class="section-title">Built for Performance, Visibility &amp; Security</h2>
+          <p class="section-subtitle">
+            A website should look exceptional, load quickly, feel smooth, rank well, and safeguard visitor privacy.
+          </p>
+        </div>
+
+        <div class="quality-grid">
+          <!-- Quality 1 -->
+          <div class="quality-card reveal">
+            <div class="quality-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="quality-title">High Performance</h3>
+            <p class="quality-text">
+              We care about creating smooth, fast, and comfortable websites. Optimized assets and clean code ensure pages load quickly and interactions feel responsive without lag.
+            </p>
+            <div class="quality-metric">
+              <div class="metric-bar"><div class="metric-fill" style="width: 96%;"></div></div>
+              <span class="metric-label">Smooth UX &amp; Fast Response</span>
+            </div>
+          </div>
+
+          <!-- Quality 2 -->
+          <div class="quality-card reveal reveal-delay-1">
+            <div class="quality-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="quality-title">100% Responsive Design</h3>
+            <p class="quality-text">
+              Web Create websites are rigorously engineered to adapt naturally across mobile phones, tablets, laptops, and large desktop screens without horizontal scroll.
+            </p>
+            <div class="quality-metric">
+              <div class="metric-bar"><div class="metric-fill" style="width: 100%;"></div></div>
+              <span class="metric-label">Mobile, Tablet &amp; Desktop Ready</span>
+            </div>
+          </div>
+
+          <!-- Quality 3 -->
+          <div class="quality-card reveal reveal-delay-2">
+            <div class="quality-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                <line x1="11" y1="8" x2="11" y2="14"></line>
+                <line x1="8" y1="11" x2="14" y2="11"></line>
+              </svg>
+            </div>
+            <h3 class="quality-title">SEO Foundation</h3>
+            <p class="quality-text">
+              SEO is an integral part of our approach. We build websites with clean semantic HTML5, descriptive meta structures, and fast load times for strong search visibility.
+            </p>
+            <div class="quality-metric">
+              <div class="metric-bar"><div class="metric-fill" style="width: 95%;"></div></div>
+              <span class="metric-label">Search Discoverability Architecture</span>
+            </div>
+          </div>
+
+          <!-- Quality 4 -->
+          <div class="quality-card reveal reveal-delay-3">
+            <div class="quality-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="quality-title">Security &amp; Privacy</h3>
+            <p class="quality-text">
+              Security and privacy are core priorities in everything we build. We adhere to safe web practices, SSL encryption standards, and user data privacy considerations.
+            </p>
+            <div class="quality-metric">
+              <div class="metric-bar"><div class="metric-fill" style="width: 98%;"></div></div>
+              <span class="metric-label">Privacy Respect &amp; Safe Standards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. PROJECTS / PORTFOLIO SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Our Portfolio</span>
+          <h2 class="section-title">Featured Project Showcase</h2>
+          <p class="section-subtitle">
+            A glimpse into digital spaces crafted with care. Designed with modular architecture so new projects can easily be featured.
+          </p>
+        </div>
+
+        <!-- Projects Grid (Clean Placeholders as requested) -->
+        <div class="projects-grid">
+          
+          <!-- Project 01 -->
+          <article class="project-card reveal">
+            <div class="project-media-wrap">
+              <div class="project-mockup mockup-gradient-1" aria-hidden="true">
+                <div class="mockup-header-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-content-preview">
+                  <div class="mockup-badge">Corporate</div>
+                  <div class="mockup-canvas-line w-75"></div>
+                  <div class="mockup-canvas-line w-50"></div>
+                  <div class="mockup-canvas-box"></div>
+                </div>
+                <span class="project-number-badge">01</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Corporate Website</span>
+              </div>
+              <h3 class="project-name">Project 01</h3>
+              <p class="project-description">
+                A modern corporate web presence designed to showcase services, leadership, and company identity with an emphasis on clarity and trust.
+              </p>
+              <div class="project-tags">
+                <span class="tag">WordPress</span>
+                <span class="tag">Gutenberg</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-view-btn" data-project="Project 01" data-category="Corporate Website" data-desc="A modern corporate web presence designed to showcase services, leadership, and company identity with an emphasis on clarity and trust." data-tech="WordPress, Gutenberg, Responsive CSS">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-media-wrap">
+              <div class="project-mockup mockup-gradient-2" aria-hidden="true">
+                <div class="mockup-header-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-content-preview">
+                  <div class="mockup-badge">E-Commerce</div>
+                  <div class="mockup-canvas-line w-60"></div>
+                  <div class="mockup-canvas-grid-2">
+                    <div></div><div></div>
+                  </div>
+                </div>
+                <span class="project-number-badge">02</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Online Store</span>
+              </div>
+              <h3 class="project-name">Project 02</h3>
+              <p class="project-description">
+                A streamlined online store built to deliver a smooth shopping experience with clear product displays and comfortable checkout.
+              </p>
+              <div class="project-tags">
+                <span class="tag">WooCommerce</span>
+                <span class="tag">Custom UI</span>
+                <span class="tag">Secure Pay</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-view-btn" data-project="Project 02" data-category="Online Store" data-desc="A streamlined online store built to deliver a smooth shopping experience with clear product displays and comfortable checkout." data-tech="WooCommerce, Custom UI, Secure Payments">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-media-wrap">
+              <div class="project-mockup mockup-gradient-3" aria-hidden="true">
+                <div class="mockup-header-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-content-preview">
+                  <div class="mockup-badge">Custom Web Solution</div>
+                  <div class="mockup-canvas-line w-80"></div>
+                  <div class="mockup-canvas-box"></div>
+                </div>
+                <span class="project-number-badge">03</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Custom Web App</span>
+              </div>
+              <h3 class="project-name">Project 03</h3>
+              <p class="project-description">
+                A bespoke web solution featuring interactive workflows and customized tools tailored specifically to client operational needs.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Custom Dev</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">SEO Optimized</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-view-btn" data-project="Project 03" data-category="Custom Web App" data-desc="A bespoke web solution featuring interactive workflows and customized tools tailored specifically to client operational needs." data-tech="Custom JS, CSS Grid, API Integration">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04 -->
+          <article class="project-card reveal">
+            <div class="project-media-wrap">
+              <div class="project-mockup mockup-gradient-4" aria-hidden="true">
+                <div class="mockup-header-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-content-preview">
+                  <div class="mockup-badge">Hospitality</div>
+                  <div class="mockup-canvas-line w-70"></div>
+                  <div class="mockup-canvas-grid-2">
+                    <div></div><div></div>
+                  </div>
+                </div>
+                <span class="project-number-badge">04</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Restaurant &amp; Hospitality</span>
+              </div>
+              <h3 class="project-name">Project 04</h3>
+              <p class="project-description">
+                A digital presence for hospitality featuring dynamic menu previews, location information, and an intuitive reservation request flow.
+              </p>
+              <div class="project-tags">
+                <span class="tag">WordPress</span>
+                <span class="tag">Interactive UI</span>
+                <span class="tag">Mobile First</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-view-btn" data-project="Project 04" data-category="Restaurant &amp; Hospitality" data-desc="A digital presence for hospitality featuring dynamic menu previews, location information, and an intuitive reservation request flow." data-tech="WordPress, Mobile First CSS, Forms">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 05 -->
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-media-wrap">
+              <div class="project-mockup mockup-gradient-5" aria-hidden="true">
+                <div class="mockup-header-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-content-preview">
+                  <div class="mockup-badge">Startup Launch</div>
+                  <div class="mockup-canvas-line w-65"></div>
+                  <div class="mockup-canvas-box"></div>
+                </div>
+                <span class="project-number-badge">05</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Startup Landing Platform</span>
+              </div>
+              <h3 class="project-name">Project 05</h3>
+              <p class="project-description">
+                A fast-loading launch website designed for early-stage startups to present innovative product features and capture user interest.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Custom Dev</span>
+                <span class="tag">High Speed</span>
+                <span class="tag">Analytics Ready</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-view-btn" data-project="Project 05" data-category="Startup Landing Platform" data-desc="A fast-loading launch website designed for early-stage startups to present innovative product features and capture user interest." data-tech="Custom Dev, Fast UX, Analytics">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 06 -->
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-media-wrap">
+              <div class="project-mockup mockup-gradient-6" aria-hidden="true">
+                <div class="mockup-header-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-content-preview">
+                  <div class="mockup-badge">Organization</div>
+                  <div class="mockup-canvas-line w-85"></div>
+                  <div class="mockup-canvas-grid-2">
+                    <div></div><div></div>
+                  </div>
+                </div>
+                <span class="project-number-badge">06</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Organization Portal</span>
+              </div>
+              <h3 class="project-name">Project 06</h3>
+              <p class="project-description">
+                An accessible and structured organizational website that presents educational initiatives, reports, and community resources.
+              </p>
+              <div class="project-tags">
+                <span class="tag">WordPress</span>
+                <span class="tag">Accessibility</span>
+                <span class="tag">Multi-Page</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-view-btn" data-project="Project 06" data-category="Organization Portal" data-desc="An accessible and structured organizational website that presents educational initiatives, reports, and community resources." data-tech="WordPress, Accessible UI, Document Hub">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. WHY WEB CREATE SECTION -->
+    <section class="section why-section" id="why-us">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Why Choose Us</span>
+          <h2 class="section-title">Built Around Your Real Value</h2>
+          <p class="section-subtitle">
+            We focus on proven principles that ensure your website serves as a reliable, long-lasting foundation for your business.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">🎯</div>
+            <h3 class="why-card-title">Customized Solutions</h3>
+            <p class="why-card-text">Every project is built from scratch around your specific audience, goals, and business requirements.</p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-1">
+            <div class="why-icon" aria-hidden="true">✨</div>
+            <h3 class="why-card-title">Modern Design</h3>
+            <p class="why-card-text">Clean, aesthetic, and balanced layouts that elevate your brand and impress your visitors.</p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-2">
+            <div class="why-icon" aria-hidden="true">⚡</div>
+            <h3 class="why-card-title">Smooth User Experience</h3>
+            <p class="why-card-text">Comfortable navigation, rapid loading, and intuitive interactions that keep visitors engaged.</p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-3">
+            <div class="why-icon" aria-hidden="true">📱</div>
+            <h3 class="why-card-title">100% Responsive</h3>
+            <p class="why-card-text">Flawless display on mobile phones, tablets, laptops, and large desktop screens.</p>
+          </div>
+
+          <div class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">🔍</div>
+            <h3 class="why-card-title">SEO Awareness</h3>
+            <p class="why-card-text">Built with strong semantic structure and performance practices for solid search engine discovery.</p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-1">
+            <div class="why-icon" aria-hidden="true">🔒</div>
+            <h3 class="why-card-title">Security &amp; Privacy</h3>
+            <p class="why-card-text">Modern best practices to safeguard your digital space and respect your users' data.</p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-2">
+            <div class="why-icon" aria-hidden="true">🤝</div>
+            <h3 class="why-card-title">Client-Focused Approach</h3>
+            <p class="why-card-text">Attentive listening and clear communication throughout the design and development cycle.</p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-3 highlight-why">
+            <div class="why-icon" aria-hidden="true">⏱️</div>
+            <h3 class="why-card-title">7 Months After-Sales Support</h3>
+            <p class="why-card-text">Extended ongoing assistance after delivery to ensure continuous confidence and stability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. OUR DESIGN PHILOSOPHY SECTION -->
+    <section class="section philosophy-section" id="philosophy">
+      <div class="container">
+        <div class="philosophy-box reveal">
+          <span class="philosophy-kicker">Our Design Philosophy</span>
+          <h2 class="philosophy-headline">
+            Modern <span class="phil-plus">+</span> Smooth <span class="phil-plus">+</span> Comfortable <span class="phil-plus">+</span> Secure <span class="phil-plus">+</span> Easy to Use
+          </h2>
+          <div class="philosophy-divider" aria-hidden="true"></div>
+          <p class="philosophy-text">
+            A website should not only look good. It should deliver an enjoyable, dependable, and natural experience for every visitor. Every detail we build balances visual beauty with functional comfort.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CLIENT EXPERIENCE & VISION SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="exp-grid">
+          <!-- Client Experience Focus -->
+          <div class="exp-card client-exp-card reveal">
+            <div class="exp-badge">The Client Journey</div>
+            <h2 class="exp-title">Satisfied. Accepted. Happy.</h2>
+            <p class="exp-lead">
+              The goal is not simply to launch a website. The goal is to create a digital experience where you feel that the final result truly represents what you were looking for.
+            </p>
+            <div class="journey-steps">
+              <div class="journey-step">
+                <div class="step-num">1</div>
+                <div class="step-text">
+                  <strong>Satisfaction</strong>
+                  <span>Delivering high technical quality and clean aesthetics.</span>
+                </div>
+              </div>
+              <div class="journey-step">
+                <div class="step-num">2</div>
+                <div class="step-text">
+                  <strong>Acceptance</strong>
+                  <span>Aligning precisely with your vision and business goals.</span>
+                </div>
+              </div>
+              <div class="journey-step">
+                <div class="step-num">3</div>
+                <div class="step-text">
+                  <strong>Happiness</strong>
+                  <span>Achieving confidence and pride in your digital space.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Company Vision Focus -->
+          <div class="exp-card vision-card reveal reveal-delay-1">
+            <div class="exp-badge">Our Vision</div>
+            <h2 class="exp-title">Empowering Digital Independence</h2>
+            <p class="exp-lead">
+              Web Create aims to help people and businesses build their own digital presence through modern websites that give them greater freedom to present their ideas, services, products, and identity.
+            </p>
+            <div class="vision-quote">
+              <svg class="quote-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+              <p>
+                "A website provides an authentic digital home that you control completely — free from algorithms, built for your real story."
+              </p>
+              <span class="quote-author">— Web Create Team</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. CALL TO ACTION SECTION -->
+    <section class="section cta-section" id="cta">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="cta-glow" aria-hidden="true"></div>
+          <div class="cta-content">
+            <span class="cta-kicker">Let's Collaborate</span>
+            <h2 class="cta-title">Have an Idea? Let's Build It.</h2>
+            <p class="cta-description">
+              Turn your ideas, services, or products into a modern digital experience with Web Create.
+            </p>
+            <div class="cta-actions">
+              <a href="#contact" class="btn btn-primary btn-lg">
+                <span>Start Your Project</span>
+                <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Get In Touch</span>
+          <h2 class="section-title">Let's Discuss Your Project</h2>
+          <p class="section-subtitle">
+            Send us a message with your project details or reach out through our direct communication channels.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper reveal">
+            <h3 class="form-title">Send Us a Message</h3>
+            <p class="form-subtitle">Fill in the details below and we will get back to you promptly.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Morgan" required>
+                  <span class="input-focus-border"></span>
+                </div>
+                <span class="field-error" id="name-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+                  <span class="input-focus-border"></span>
+                </div>
+                <span class="field-error" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="project-type" class="form-label">Project Type <span class="required">*</span></label>
+                <div class="input-wrap select-wrap">
+                  <select id="project-type" name="project-type" class="form-select" required>
+                    <option value="" disabled selected>Select a project type...</option>
+                    <option value="Website Design & Development">Website Design &amp; Development</option>
+                    <option value="E-Commerce Website">E-Commerce Website</option>
+                    <option value="Custom Web Solution">Custom Web Solution</option>
+                    <option value="Website Launch Preparation">Website Launch Preparation</option>
+                    <option value="Other Project Inquiry">Other Project Inquiry</option>
+                  </select>
+                  <span class="select-arrow" aria-hidden="true">▼</span>
+                </div>
+                <span class="field-error" id="type-error">Please select a project category.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Project Message <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Tell us about your project goals, ideas, or timeline..." required></textarea>
+                  <span class="input-focus-border"></span>
+                </div>
+                <span class="field-error" id="message-error">Please enter your message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <span class="btn-text">Submit Message</span>
+                <span class="btn-loader" aria-hidden="true"></span>
+              </button>
+            </form>
+
+            <!-- Success Notification State (Rendered only on EmailJS success) -->
+            <div class="form-feedback hidden" id="form-feedback">
+              <div class="feedback-icon">✓</div>
+              <h4>Message Sent</h4>
+              <p id="form-success-text">Thank you! Your message has been sent successfully. We will get back to you soon.</p>
+              <button type="button" class="btn btn-sm btn-secondary" id="reset-form-btn">Send Another Message</button>
+            </div>
+
+            <!-- Error Notification State (Rendered on EmailJS failure) -->
+            <div class="form-feedback form-feedback-error hidden" id="form-error-feedback">
+              <div class="feedback-icon error-icon">✕</div>
+              <h4>Message Failed</h4>
+              <p id="form-error-text">Unable to send your message at this time. Please check your connection or contact us directly at <a href="mailto:web.create.46@gmail.com" class="error-email-link">web.create.46@gmail.com</a>.</p>
+              <button type="button" class="btn btn-sm btn-secondary" id="retry-form-btn">Try Again</button>
+            </div>
+          </div>
+
+          <!-- Direct Channels & Social Info -->
+          <div class="contact-info-wrapper reveal reveal-delay-1">
+            <h3 class="info-title">Direct Communication</h3>
+            <p class="info-text">Prefer direct contact? Reach out through our official website email:</p>
+
+            <div class="contact-cards-list">
+              <!-- Official Email Card -->
+              <div class="contact-method-card">
+                <div class="method-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-name">Official Email</span>
+                  <a href="mailto:web.create.46@gmail.com" class="method-val">web.create.46@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Fast Response Notice Card -->
+              <div class="contact-method-card">
+                <div class="method-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="method-details">
+                  <span class="method-name">Response Window</span>
+                  <span class="method-val">Typically within 24 hours</span>
+                </div>
+              </div>
+
+              <!-- Support Duration Notice -->
+              <div class="contact-method-card support-note-card">
+                <div class="method-icon" aria-hidden="true">🛡️</div>
+                <div class="method-details">
+                  <span class="method-name">Included Support Guarantee</span>
+                  <span class="method-val">Up to 7 Months Post-Launch Support</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Placeholders -->
+            <div class="social-links-section">
+              <h4 class="social-heading">Follow Web Create</h4>
+              <div class="social-icons-row">
+                <!-- LinkedIn Placeholder -->
+                <a href="#contact" class="social-btn" aria-label="Web Create on LinkedIn" title="LinkedIn">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45c-.88 0-1.6.72-1.6 1.6 0 .88.72 1.6 1.6 1.6.88 0 1.6-.72 1.6-1.6 0-.88-.72-1.6-1.6-1.6Z"/>
+                  </svg>
+                </a>
+
+                <!-- GitHub Placeholder -->
+                <a href="#contact" class="social-btn" aria-label="Web Create on GitHub" title="GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 14.42 22 12A10 10 0 0 0 12 2z"/>
+                  </svg>
+                </a>
+
+                <!-- YouTube Placeholder -->
+                <a href="#contact" class="social-btn" aria-label="Web Create on YouTube" title="YouTube">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </a>
+
+                <!-- Facebook Placeholder -->
+                <a href="#contact" class="social-btn" aria-label="Web Create on Facebook" title="Facebook">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Details Modal -->
+  <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-category" id="modal-category">Category</div>
+      <h3 class="modal-title" id="modal-title">Project Title</h3>
+      <p class="modal-desc" id="modal-desc">Detailed description goes here.</p>
+      <div class="modal-tech-stack">
+        <strong>Technologies:</strong>
+        <span id="modal-tech">WordPress, Gutenberg</span>
+      </div>
+      <div class="modal-footer">
+        <a href="#contact" class="btn btn-primary btn-sm modal-contact-btn">Inquire About a Similar Project</a>
+        <button class="btn btn-secondary btn-sm" id="modal-dismiss-btn">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo footer-logo">
+            <img src="assets/logo.svg" alt="web Craft Logo" class="brand-logo-img">
+          </a>
+          <p class="footer-tagline">
+            Creating modern, smooth, secure, responsive, and user-friendly digital experiences since 2017.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#why-us">Why Web Create</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Website Design &amp; Development</a></li>
+            <li><a href="#services">E-Commerce Websites</a></li>
+            <li><a href="#services">Custom Web Solutions</a></li>
+            <li><a href="#services">Launch Preparation</a></li>
+            <li><a href="#services">7 Months Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Core Principles</h4>
+          <ul class="footer-links">
+            <li><a href="#philosophy">Modern + Smooth</a></li>
+            <li><a href="#philosophy">Comfortable + Secure</a></li>
+            <li><a href="#qualities">SEO &amp; Visibility</a></li>
+            <li><a href="#qualities">100% Responsive</a></li>
+            <li><a href="#experience">Client Happiness</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 Web Create. All rights reserved.
+        </p>
+
+        <div class="footer-bottom-actions">
+          <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+            <span>Back to Top</span>
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EmailJS Official Browser SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Main Website Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
